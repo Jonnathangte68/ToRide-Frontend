@@ -1,0 +1,281 @@
+/* Landingscreens */
+
+@import url("https://fonts.googleapis.com/css2?family=Open Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock Salt:wght@400&display=swap");
+
+p {
+  margin: 0;
+}
+
+.clip-contents {
+  overflow: hidden;
+}
+
+.flex-col-hstart-vstart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-col-hcenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-row-vstart-hstart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-hcenter {
+  justify-content: center;
+}
+
+.landing-screens {
+  padding: 0px 0px 132px 0px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: 900px;
+}
+
+.group-1210 {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  padding: 19px 136px 18px 132px;
+  margin-bottom: 80px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(226, 226, 234, 1);
+  width: 100%;
+}
+
+.to-ride-logo {
+  width: 201.74px;
+  margin-right: 46px;
+  height: 100%;
+}
+
+.location {
+  padding: 0px 4px 6px 3px;
+  margin-right: 203px;
+  box-sizing: border-box;
+  height: fit-content;
+}
+
+.pin {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.txt-723 {
+  font-size: 15px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  line-height: 160%;
+  color: rgba(44, 47, 52, 1);
+  word-wrap: break-word;
+  margin-right: 7px;
+}
+
+.chevron-down {
+  width: 24px;
+  height: 24px;
+}
+
+.content {
+  padding: 3px 20px 3px 0px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(226, 226, 234, 1);
+  width: 152px;
+  height: fit-content;
+}
+
+.frame-1 {
+  height: 100%;
+}
+
+.txt-8107 {
+  font-size: 15px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  line-height: 160%;
+  color: rgba(44, 47, 52, 1);
+  word-wrap: break-word;
+  margin-right: 23px;
+}
+
+.txt-757 {
+  font-size: 15px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  line-height: 160%;
+  color: rgba(44, 47, 52, 1);
+  word-wrap: break-word;
+}
+
+.cta {
+  height: fit-content;
+}
+
+.text-40px-medium-1-primary {
+  padding: 11px 18px 10px 19px;
+  margin-right: 15px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 67, 17, 1);
+  height: 100%;
+}
+
+.txt-134 {
+  font-size: 14px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  line-height: 114%;
+  color: rgba(255, 67, 17, 1);
+  text-align: center;
+  width: 118px;
+  word-wrap: break-word;
+}
+
+.text-40px-medium-1-primary-1 {
+  padding: 11px 18px 10px 19px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: rgba(44, 47, 52, 1);
+  height: 100%;
+}
+
+.txt-838 {
+  font-size: 14px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  line-height: 114%;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  width: 59px;
+  word-wrap: break-word;
+}
+
+.text {
+  margin-bottom: 43px;
+  box-sizing: border-box;
+  width: 669px;
+  height: 217px;
+}
+
+.txt-5107 {
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  line-height: 200%;
+  color: rgba(44, 47, 52, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.txt-734 {
+  font-size: 48px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  line-height: 136%;
+  color: rgba(44, 47, 52, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.frame-2 {
+  transform: rotate(-180deg);
+  opacity: 0.5;
+}
+
+.component-1 {
+  margin-right: 6px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.ellipse-1 {
+  background-color: rgba(176, 184, 194, 1);
+  height: 6px;
+  border-radius: 3px;
+  margin-bottom: 6px;
+  width: 100%;
+}
+
+.ellipse-3 {
+  background-color: rgba(176, 184, 194, 1);
+  height: 6px;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.component-5 {
+  height: 100%;
+}
+
+.ellipse-1 {
+  background-color: rgba(176, 184, 194, 1);
+  height: 6px;
+  border-radius: 3px;
+  margin-bottom: 6px;
+  width: 100%;
+}
+
+.ellipse-3 {
+  background-color: rgba(176, 184, 194, 1);
+  height: 6px;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.illustration {
+  padding: 0px 0px 0px 6px;
+  box-sizing: border-box;
+  height: 346.51px;
+  width: fit-content;
+}
+
+.arrow-1 {
+  transform: rotate(-23.6deg);
+  width: 132.39px;
+  height: 124.66px;
+}
+
+.txt-8381 {
+  font-size: 11px;
+  font-family: Rock Salt, handwriting;
+  font-weight: 400;
+  line-height: 218%;
+  color: rgba(44, 47, 52, 1);
+  word-wrap: break-word;
+}
+
+.arrow {
+  width: 66.89px;
+  height: 60px;
+}
+
+.dog {
+  width: 54.24px;
+  height: 59.79px;
+}
+
+.objects {
+  width: 507.81px;
+  height: 100%;
+}

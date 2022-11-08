@@ -1,0 +1,338 @@
+/* _02_ownerregister */
+
+@import url("https://fonts.googleapis.com/css2?family=Open Sans:wght@400;600;700&display=swap");
+
+p {
+  margin: 0;
+}
+
+.clip-contents {
+  overflow: hidden;
+}
+
+.flex-col-hstart-vstart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-col-hcenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-row-vstart-hstart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-hcenter {
+  justify-content: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+._-02-_owner-register {
+  padding: 0px 0px 226px 0px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+  width: 1600px;
+  height: 900px;
+}
+
+.group-659 {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  padding: 19px 136px 18px 132px;
+  margin-bottom: 80px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(226, 226, 234, 1);
+  width: 100%;
+}
+
+.to-ride-logo {
+  width: 201.74px;
+  margin-right: 837px;
+  height: 100%;
+}
+
+.content {
+  padding: 3px 20px 3px 0px;
+  margin-right: 22px;
+  box-sizing: border-box;
+  border: 1px solid rgba(226, 226, 234, 1);
+  height: fit-content;
+}
+
+.icon-others {
+  width: 24px;
+  margin-right: 8px;
+  height: 100%;
+}
+
+.frame-1 {
+  height: 100%;
+}
+
+.txt-497 {
+  font-size: 15px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  line-height: 160%;
+  color: rgba(44, 47, 52, 1);
+  word-wrap: break-word;
+}
+
+.cta {
+  width: 98px;
+  height: fit-content;
+}
+
+.text-40px-medium-1-primary {
+  padding: 11px 18px 10px 19px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: rgba(44, 47, 52, 1);
+  width: 100%;
+  height: 100%;
+}
+
+.txt-327 {
+  font-size: 14px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  line-height: 114%;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  width: 59px;
+  word-wrap: break-word;
+}
+
+.group-659 {
+  width: fit-content;
+}
+
+.undraw-_add-_file-_-4gfw {
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+
+.rectangle {
+  background-color: rgba(44, 47, 52, 1);
+  width: 106.3px;
+  height: 0.8px;
+}
+
+.rectangle-1 {
+  background-color: rgba(44, 47, 52, 1);
+  width: 90.31px;
+  height: 0.8px;
+}
+
+.group-457 {
+  padding: 19px 13px 13px 6px;
+  box-sizing: border-box;
+  background: url(https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/yhtyui88bh-26%3A609?alt=media&token=aef1dad6-8b54-43eb-8aed-5f000be53add);
+  background-size: 100% 100%;
+}
+
+.rectangle-2 {
+  background-color: rgba(44, 47, 52, 1);
+  width: 23.98px;
+  height: 0.8px;
+  margin-bottom: 4px;
+}
+
+.rectangle-3 {
+  background-color: rgba(44, 47, 52, 1);
+  width: 23.98px;
+  height: 0.8px;
+}
+
+.rectangle-4 {
+  background-color: rgba(220, 227, 234, 1);
+  width: 34.37px;
+  height: 36.76px;
+}
+
+.group-183 {
+  padding: 20px 31px 12px 14px;
+  box-sizing: border-box;
+  background: url(https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/yhtyui88bh-26%3A602?alt=media&token=c0c1858c-6965-4809-b0e1-c8aaca15dc09);
+  background-size: 100% 100%;
+}
+
+.rectangle-5 {
+  background-color: rgba(44, 47, 52, 1);
+  width: 51.95px;
+  height: 0.8px;
+  margin-bottom: 7px;
+}
+
+.rectangle-6 {
+  background-color: rgba(44, 47, 52, 1);
+  width: 51.95px;
+  height: 0.8px;
+  margin-bottom: 6px;
+}
+
+.rectangle-7 {
+  background-color: rgba(44, 47, 52, 1);
+  width: 51.95px;
+  height: 0.8px;
+}
+
+.rectangle-8 {
+  background-color: rgba(220, 227, 234, 1);
+  width: 79.92px;
+  height: 39.96px;
+}
+
+.group-982 {
+  padding: 16px 10px 21px 11px;
+  box-sizing: border-box;
+  background: url(https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/yhtyui88bh-26%3A595?alt=media&token=30673881-3ff8-42bf-a564-ee087fa5fec7);
+  background-size: 100% 100%;
+}
+
+.rectangle-9 {
+  background-color: rgba(44, 47, 52, 1);
+  width: 33.57px;
+  height: 0.8px;
+  margin-bottom: 7px;
+}
+
+.rectangle-10 {
+  background-color: rgba(44, 47, 52, 1);
+  width: 33.57px;
+  height: 0.8px;
+  margin-bottom: 8px;
+}
+
+.rectangle-11 {
+  background-color: rgba(44, 47, 52, 1);
+  width: 33.57px;
+  height: 0.8px;
+}
+
+.group-395 {
+  background: url(https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/yhtyui88bh-26%3A528?alt=media&token=c2dc71ca-b2d2-4a6d-b3c1-f96d04a664c1);
+  background-size: 100% 100%;
+  width: 189px;
+  height: 189px;
+}
+
+.oval {
+  width: 58.34px;
+  height: 58.34px;
+}
+
+.rectangle-12 {
+  background-color: rgba(44, 47, 52, 1);
+  height: 0.8px;
+  margin-bottom: 51px;
+  width: 100%;
+}
+
+.txt-553 {
+  font-size: 28px;
+  font-family: Material Icons, sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  width: 23px;
+  word-wrap: break-word;
+}
+
+.rectangle-13 {
+  background-color: rgba(220, 227, 234, 1);
+  width: 39.96px;
+  height: 46.36px;
+}
+
+.text {
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.txt-274 {
+  font-size: 30px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  line-height: 133%;
+  color: rgba(44, 47, 52, 1);
+  text-align: center;
+  word-wrap: break-word;
+  margin-bottom: 11px;
+}
+
+.txt-4104 {
+  font-size: 15px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  line-height: 160%;
+  color: rgba(117, 124, 133, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.txt-41042 {
+  font-weight: 600;
+  color: rgba(44, 47, 52, 1);
+}
+
+.text-48px-large-1-primary {
+  padding: 13px 18px 12px 19px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: rgba(44, 47, 52, 1);
+  width: fit-content;
+}
+
+.txt-213 {
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  line-height: 125%;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  width: 381px;
+  word-wrap: break-word;
+}
+
+.text-48px-large-1-primary-1 {
+  padding: 13px 18px 12px 19px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid rgba(44, 47, 52, 1);
+  width: fit-content;
+}
+
+.txt-519 {
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  line-height: 125%;
+  color: rgba(44, 47, 52, 1);
+  text-align: center;
+  width: 381px;
+  word-wrap: break-word;
+}

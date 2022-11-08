@@ -1,0 +1,1 @@
+declare module 'react-single-calendar-events';

@@ -1,0 +1,9 @@
+#main-landing-select-location-box-border:focus {
+    border: none !important;
+    border-color: transparent !important;
+}
+
+#main-landing-select-location-box-border:hover {
+    border: none !important;
+    border-color: transparent !important;
+}

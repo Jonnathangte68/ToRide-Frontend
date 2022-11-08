@@ -1,0 +1,199 @@
+/* Messageswithlist */
+
+@import url("https://fonts.googleapis.com/css2?family=Open Sans:wght@400;700&display=swap");
+
+p {
+  margin: 0;
+}
+
+.clip-contents {
+  overflow: hidden;
+}
+
+.flex-col-hstart-vstart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-vcenter-hstart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-hcenter {
+  justify-content: center;
+}
+
+.flex-col-hcenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.messages-with-list {
+  background-color: rgba(243, 243, 243, 1);
+  width: 1600px;
+  height: 900px;
+}
+
+.group-2103 {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-_menu {
+  padding: 0px 0px 39px 0px;
+  box-sizing: border-box;
+  background-color: rgba(44, 47, 52, 1);
+  height: 100%;
+}
+
+.logo {
+  padding: 30px 15px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  background-color: rgba(44, 47, 52, 1);
+  width: 100%;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-item {
+  margin-bottom: 71px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+._-06-_default-_menu {
+  padding: 22px 27px;
+  box-sizing: border-box;
+  background-color: rgba(44, 47, 52, 1);
+  width: 100%;
+}
+
+.icon-menu-icon {
+  width: 100%;
+  height: 100%;
+}
+
+._-05-_default-_menu {
+  padding: 10px 0px 10px 27px;
+  box-sizing: border-box;
+  background-color: rgba(44, 47, 52, 1);
+  width: 100%;
+}
+
+.icon-menu-icon-1 {
+  height: 24px;
+  margin-right: 25px;
+  width: 100%;
+}
+
+.rectangle-914 {
+  background-color: rgba(255, 67, 17, 1);
+  width: 3px;
+  height: 100%;
+}
+
+._-01-_default-_menu {
+  padding: 22px 26px 21px 27px;
+  box-sizing: border-box;
+  background-color: rgba(44, 47, 52, 1);
+  width: 100%;
+}
+
+.fi-box {
+  width: 25px;
+  height: 100%;
+}
+
+.user-profile {
+  background-color: rgba(44, 47, 52, 1);
+  width: 100%;
+}
+
+.txt-484 {
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  line-height: 125%;
+  color: rgba(255, 67, 17, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.active {
+  border-radius: 2000px;
+  background-color: rgba(255, 67, 17, 0.15);
+  border: 1px solid rgba(255, 67, 17, 1);
+  width: 48px;
+  height: 48px;
+}
+
+.list-of-students {
+  padding: 94px 0px 780px 405px;
+  margin-right: 2px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.icon-menu-icon {
+  width: 24px;
+  height: 100%;
+}
+
+.user-data {
+  padding: 340px 405px 384px 405px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+  height: 100%;
+}
+
+.lable-text {
+  width: 100%;
+  height: 100%;
+}
+
+.cat-2 {
+  width: 113.84px;
+  height: 83.94px;
+  margin-bottom: 12px;
+}
+
+.lable-text {
+  width: 100%;
+}
+
+.txt-577 {
+  font-size: 22px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  line-height: 145%;
+  color: rgba(44, 47, 52, 1);
+  text-align: center;
+  word-wrap: break-word;
+  margin-bottom: 5px;
+}
+
+.txt-511 {
+  font-size: 15px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  line-height: 133%;
+  color: rgba(117, 124, 133, 1);
+  text-align: center;
+  word-wrap: break-word;
+  opacity: 0.8;
+}

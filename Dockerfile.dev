@@ -1,0 +1,10 @@
+FROM node:16 AS builder
+# Set working directory
+WORKDIR /app
+# Copy all files from current directory to working dir in image
+COPY ./to-ride-webapp .
+# install node modules and build assets
+RUN yarn install
+
+EXPOSE 3000
+CMD yarn run start
