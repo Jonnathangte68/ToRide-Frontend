@@ -124,7 +124,7 @@ const OwnerSignUpForm = (props: any) => {
                 <InputPassword name="password" placeholder='Password' value={password} onChange={(password: string) => setPassword(password)} containerStyle={FormInputWidth} />
             </FormItem>
             <ButtonSendForm onClick={handleOwnerSignUp}>
-              <div className="text-48px-large-1-primary flex-col-hstart-vstart" style={{ textAlign: "center", paddingLeft: "25.54vh", paddingRight: "25.54vh", marginTop: "0.75vh" }}>
+              <div className="text-48px-large-1-primary flex-col-hstart-vstart" style={{ textAlign: "center", paddingLeft: "29.54vh", paddingRight: "25.54vh", marginTop: "0.75vh" }}>
                 <p className={css`
                 font-size: 16px;
                 font-family: Open Sans, sans-serif;

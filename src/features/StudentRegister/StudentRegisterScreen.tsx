@@ -5,9 +5,11 @@ import HeaderSignInOnly from "../../components/Headers/HeaderSignInOnly"
 import StudentSignUpForm from "./StudentSignUpForm/StudentSignUpForm";
 import SignInLegend from "./SingInLegend"
 import "./style.css"
+import COLORS from "../../utils/colors";
 
 const Frame2 = styled.div`
 margin-bottom: 30px;
+margin-top: 7vh;
   box-sizing: border-box;
   width: fit-content;
   display: flex;
@@ -87,12 +89,21 @@ export default function StudentRegisterScreen(props: any) {
       <div style={{ flex: 1, width: "100%", alignItems: "center", justifyContent: "center" }}>
         <ItemsContainer>
           <div className="flex-col">
-            <div className="text flex-col-hcenter-vstart">
-              <p className="txt-868 flex-hcenter">ToRide Student Account Setup</p>
-              <p className="txt-879 flex-hcenter">
+        
+            
+            
+            {/* Title on top of Form */}
+            <div>
+              <p className={css`font-family: Open Sans,sans-serif; text-align: center; font-size: 1.875rem; font-weight: 700;`}>ToRide Student Account Setup</p>
+              <p className={css`font-family: Open Sans,sans-serif; text-align: center; font-size: 0.938rem; font-weight: 400; color: ${COLORS.GRAY_TEXT}`}>
                 Please enter the following details to set up the account!
               </p>
             </div>
+
+            {/* End title on top of Form */}
+
+
+
             <Frame2>
               <StudentSignUpForm
                 onDisplayAlert={props?.onDisplayAlert}

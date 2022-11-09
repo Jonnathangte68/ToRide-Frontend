@@ -24,7 +24,8 @@ enum COLORS {
     RED_FADED="rgb(255,67,16,0.4)",
     GRAY_BUTTON_DEFAULT="rgb(115,124,134)",
     GRAY_BORDER_TABLE="rgb(213,201,200)",
-    REGULAR_BACKGROUND="rgb(250,250,250)"
+    REGULAR_BACKGROUND="rgb(250,250,250)",
+    GRAY_TEXT="rgba(117, 124, 133, 1)"
 }
   
 export default COLORS;

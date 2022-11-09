@@ -32,6 +32,7 @@ export default function SignInLegend() {
                 <Text71002>Terms & Conditions</Text71002> an{" "}
                 <Text71002>Privacy Policy.</Text71002>
             </Text7100>
+            <br/><br/>
         </InfoContainer>
     );
 }

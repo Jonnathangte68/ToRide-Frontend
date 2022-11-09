@@ -28,3 +28,7 @@ Notice this is the list of changes, I'm updating when developing, any important 
 Owner1: 
 Email: eiEM3EUDMU@email.com
 Password: ZjVl5TPPaO
+
+Student1:
+Email: 8oIChXTJNi@email.com
+Password: 3hzz2RYEux
