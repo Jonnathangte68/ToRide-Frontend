@@ -42,6 +42,7 @@ import AdminLocation from "./features/Admin/Location";
 import AdminClasses from "./features/Admin/Classes";
 import AdminTransactions from "./features/Admin/Transactions";
 import AdminStaff from "./features/Admin/Staff";
+import TestScreen from "./features/Test/TestScreen";
 
 export default function App() {
   const dispatch = useAppDispatch();
@@ -88,7 +89,6 @@ export default function App() {
         <Route path="/verify-account/:email" element={<StudentRegisterVerifyEmailAccount />} />
         <Route path="/email-verification" element={<StudentEmailVerification />} />
         <Route path="/verification-success" element={<StudentRegisterSuccess />} />
-        {/* <Route path="/test" element={<Test />} /> */}
         <Route path="/dashboard" element={<StudentDashboard />} />
         <Route path="/classes" element={<StudentClasses />} />
         <Route path="/calendar-view" element={<StudentCalendars />} />
@@ -122,6 +122,15 @@ export default function App() {
         <Route path="/admin/transactions" element={<AdminTransactions />} />
         <Route path="/admin/staff" element={<AdminStaff />} />
         <Route path="/admin/simulators" element={<Simulator />} />
+
+
+
+
+
+
+
+        {/* Used for testing screen styles etc next line is always commented on production. */}
+        <Route path="/test" element={<TestScreen />} />
         
         {/* Everything else */}
         <Route path="*" element={<NotFound />} />

@@ -367,7 +367,7 @@ export const updateOwnerProfile = createAsyncThunk(
       console.log("payload before to go", payload);
 
       console.log("on update owner assign location.");
-      await axiosInstance.post(`${SERVER_BASE_API}/admin/location-owners`, { location_id: locationId, owner_id: 0 });
+      // await axiosInstance.post(`${SERVER_BASE_API}/admin/location-owners`, { location_id: locationId, owner_id: 0 });
 
 
       const resp = await axiosInstance.put(`${SERVER_BASE_API}/admin/owners-profiles/${ownerProfile?.id}`, payload);

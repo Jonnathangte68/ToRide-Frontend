@@ -26,9 +26,33 @@ Notice this is the list of changes, I'm updating when developing, any important 
 #### USERS
 
 Owner1: 
-Email: eiEM3EUDMU@email.com
+Email: fyas8dg76f8asd@email.com
 Password: ZjVl5TPPaO
 
 Student1:
 Email: 8oIChXTJNi@email.com
 Password: 3hzz2RYEux
+
+######  Details
+
+FN: John2
+LN: Lassda2
+EM: 8oIChXTJNi@email.com2
+PH: +358942723496
+AD: Rauhankatu 69
+CI: Helsinki
+ST: Uusimaa
+ZI: 00840
+
+---
+
+#### DEVELOPER NOTES
+
+1. How to implement remmeber me (because already remember me between session?) Tell chromium to delete app stored info on logout.
+2. Loading (Global loader). E.g.: Navigate from owner user dashboard when It enters. Goes back to setup new owner account.
+
+---
+
+Userful tools:
+
+https://nekocalc.com/px-to-rem-converter

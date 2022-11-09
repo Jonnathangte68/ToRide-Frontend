@@ -824,3 +824,13 @@ p {
 .wrapperClassName .rdw-editor-wrapper {
   border: 1px solid #F3F3F3 !important;
 }
+
+.txt-0895123 {
+  font-size: 13px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  line-height: 185%;
+  color: rgba(117, 124, 133, 1);
+  text-align: center;
+  word-wrap: break-word;
+}

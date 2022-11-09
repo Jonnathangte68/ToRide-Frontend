@@ -4,14 +4,9 @@ import { useState } from "react";
 import Checkbox from "../../../components/Checkbox";
 import InputButton from "../../../components/InputButton/InputButton";
 import useWindowDimensions from "../../../utils/useWindowDimensions";
-import "./style.css"
+import "./style.css";
 
-interface OwnerAccountSetupStep4Props {
-  onNext: () => any;
-  onPrevious: () => any;
-}
-
-export default function OwnerAccountSetupStep2(props: OwnerAccountSetupStep4Props) {
+export default function OwnerAccountSetupStep2(props: any) {
   const { height } = useWindowDimensions();
   const [rememberMeCheck, setRememberMeCheck] = useState(false);
 
@@ -26,20 +21,20 @@ export default function OwnerAccountSetupStep2(props: OwnerAccountSetupStep4Prop
 
   const ContainerForm = styled.div`
     background-color: rgba(255, 255, 255, 1);
-    width: 68.50%;
+    width: 80%;
     height: ${height};
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     overflow: hidden;
-    margin-left: 12.75%;
+    padding-left: 25%;
+    padding-right: 4%;
   `;
 
   return (
     <div style={{ display: 'flex', flexDirection: "row", justifyContent: "center", alignItems: "center" }}>
       <ImageSteps src="../assets/img/01_Owner A/Side Patterns.png" alt="left pane navigation steps" />
-      _-01-_owner-acsetup flex-col-hstart-vstart clip-contents
       <ContainerForm>
         <div className={css`
         height: 100%;
@@ -64,7 +59,7 @@ export default function OwnerAccountSetupStep2(props: OwnerAccountSetupStep4Prop
               <div className="text-2">
                 <div className="flex-col">
                   <p className="txt-640">Introduction</p>
-                  <p className="txt-961">
+                  <p className="txt-961" style={{ overflowWrap: "break-word"  }}>
                     We are committed to respecting your online privacy and
                     recognize your need for appropriate protection and
                     management of any personally identifiable information
@@ -81,7 +76,7 @@ export default function OwnerAccountSetupStep2(props: OwnerAccountSetupStep4Prop
               <div className="text-2">
                 <div className="flex-col">
                   <p className="txt-640">Consent and Modification</p>
-                  <p className="txt-961">
+                  <p className="txt-961" style={{ overflowWrap: "break-word"  }}>
                     By using this Site, you consent to the terms of our Privacy
                     Policy and to Webkul Software Private Limited processing of
                     Personal Information for the purposes set forth herein. If
@@ -99,7 +94,7 @@ export default function OwnerAccountSetupStep2(props: OwnerAccountSetupStep4Prop
                   <p className="txt-640">
                     Receipt and Collection of Information
                   </p>
-                  <p className="txt-961">
+                  <p className="txt-961" style={{ overflowWrap: "break-word"  }}>
                     By using this Site, you consent to the terms of our Privacy
                     Policy and to Webkul Software Private Limited processing of
                     Personal Information for the purposes set forth herein. If

@@ -141,6 +141,7 @@ export default function OwnerAccountSetup(props: any) {
     if (isUpdatingOwnerProfile === "error") {
       console.log("is updating owner profile error");
       console.log(updateOwnerProfileError);
+      props?.onDisplayError("Error: Please verify your details and field every required field.");
     } else if (isUpdatingOwnerProfile === "success") {
       // @ts-ignore
       props?.onDisplayAlert("Profile has been udpated.");
@@ -197,7 +198,13 @@ export default function OwnerAccountSetup(props: any) {
           padding-bottom: 13.5vh;
           `}>
             <div className="flex-col-hcenter">
+
+
+              {/* HEAD */}
+
+
               <div className="flex-col-hcenter">
+
                 <div className="flex-col" style={{ marginLeft: "50%" }}>
                   <div className="label-text flex-col-hstart-vstart">
                     <p className="txt-867">Step 1 of 3</p>
@@ -212,40 +219,72 @@ export default function OwnerAccountSetup(props: any) {
                   {!!profilePic && (<img alt="profile owner" src={profilePic} onClick={handleClickProfielPic} style={{ borderRadius: "50%", width: "14.5vh", height: "14.5vh", marginBottom: "5vh" }} />)}
                   <input type="file" accept="image/*" id="upload" onChange={handleNewFileUpload} style={{ display: "none" }}></input>
                 </div>
-                <div className="flex-col" style={{ marginLeft: "20%" }}>
+
+
+              </div>
+
+
+              {/* FORM */}
+
+
+              <div className="flex-col" style={{ width: "100%", marginLeft: "33%", paddingLeft: "10%", paddingRight: "10%" }}>
+
+
+                  {/* FIRST NAME & LAST NAME */}
+
                   <div className={css`
                     display: flex;
                     flex-wrap: wrap;
+                    width: 66%;
                   `}>
                     <TextInput name="first_name" title="First Name" defaultValue={props?.dataPreload?.first_name} containerStyle={{ boxSizing: 'border-box', width: '43%', marginRight: '13px' }} />
                     <TextInput name="last_name" title="Last Name" defaultValue={props?.dataPreload?.last_name} containerStyle={{ boxSizing: 'border-box', width: '43%', marginLeft: '13px' }} />
                   </div>
+
+                  {/* EMAIL & MOBILE PHONE */}
+
                   <div className={css`
                     display: flex;
                     flex-wrap: wrap;
                     margin-top: 3.5vh;
+                    width: 66%;
                   `}>
-                    <TextInput name="email_address" title="Email address" defaultValue={props?.dataPreload?.user?.email} containerStyle={{ boxSizing: 'border-box', width: '43%', marginRight: '13px' }} />
+                    <TextInput extraProps={"readonly"} name="email_address" title="Email address" defaultValue={props?.dataPreload?.user?.email} containerStyle={{ boxSizing: 'border-box', width: '43%', marginRight: '13px' }} />
                     <TextInput name="mobile_number" title="Phone" defaultValue={props?.dataPreload?.mobile_number} containerStyle={{ boxSizing: 'border-box', width: '43%', marginLeft: '13px' }} />
                   </div>
+
+                  {/* ADDRESS */}
+
                   <div className={css`
                     display: flex;
                     flex-wrap: wrap;
                     margin-top: 3.5vh;
+                    padding-left: .20vw;
+                    width: 66%;
                   `}>
                     <TextInput name="address" title="Address" defaultValue={props?.dataPreload?.address} containerStyle={{ boxSizing: 'border-box', width: '90.5%' }} />
                   </div>
+
+                  {/* CITY & STATE & ZIP */}
+
                   <div className={css`
                     display: flex;
                     flex-wrap: wrap;
                     margin-top: 3.5vh;
                     padding-bottom: 4vh;
-                    border-bottom: 1px solid #DCE3EA;
+                    width: 66%;
                   `}>
                     <TextInput name="city" title="City" defaultValue={props?.dataPreload?.city} containerStyle={{ boxSizing: 'border-box', width: '28.22%', marginRight: '12px' }} />
                     <TextInput name="state" title="State" defaultValue={props?.dataPreload?.state} containerStyle={{ boxSizing: 'border-box', width: '28.22%', marginLeft: '12px' }} />
                     <TextInput name="zip" title="Zip Code" defaultValue={props?.dataPreload?.zip_code} containerStyle={{ boxSizing: 'border-box', width: '28.22%', marginLeft: '12px' }} />
                   </div>
+
+                  {/* SEPARATOR BOTTOM LINE */}
+
+                  <hr style={{ border: "1px solid #DCE3EA;", height: ".003vh", width: "59.55%" }}/>
+
+                  {/* NEXT -> CONTINUE */}
+
                   <InputButton
                     label="Next"
                     type="button"
@@ -254,8 +293,10 @@ export default function OwnerAccountSetup(props: any) {
                     containerStyle={{ width: "26.15vh", marginTop: "2.5vh", padding: "1.235vh 1.235vh 1.235vh 1.235vh" }}
                     onClick={handleSubmit}
                   />
-                </div>
+
+
               </div>
+
             </div>
           </div>
         </ContainerForm>

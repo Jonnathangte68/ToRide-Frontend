@@ -179,7 +179,7 @@ const SignIn = (props: any) => {
                   </span>
                 </MDBCol>
                 <MDBCol md="6">
-                  <span style={{ fontWeight: "400", color: COLORS.MORE_RED_BUTTON, fontSize: ".86rem", float: "right", clear: "both", paddingRight: "1.33vh" }} onClick={handleForgotPassword}>Forgot Password?</span>
+                  <span style={{ fontWeight: "600", color: COLORS.MORE_RED_BUTTON, fontSize: ".752rem", float: "right", clear: "both", paddingRight: "1.33vh", paddingTop: ".565vh" }} onClick={handleForgotPassword}>Forgot Password?</span>
                 </MDBCol>
               </MDBRow>
             </div>

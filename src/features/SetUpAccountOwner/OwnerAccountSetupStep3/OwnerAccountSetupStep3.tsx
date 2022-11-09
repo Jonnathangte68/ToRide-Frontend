@@ -9,14 +9,9 @@ import { Editor } from "react-draft-wysiwyg";
 import COLORS from "../../../utils/colors";
 import useWindowDimensions from "../../../utils/useWindowDimensions";
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
-import "./style.css"
+import "./style.css";
 
-interface OwnerAccountSetupStep3Props {
-  onNext: () => any;
-  onPrevious: () => any;
-}
-
-export default function OwnerAccountSetupStep3(props: OwnerAccountSetupStep3Props) {
+export default function OwnerAccountSetupStep3(props: any) {
   const { height } = useWindowDimensions();
   const [aboutUsText, setAboutUsText] = useState(undefined);
 
